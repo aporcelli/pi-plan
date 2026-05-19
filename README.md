@@ -20,6 +20,8 @@ This means:
 
 No conflicts expected in normal use. If a skill absolutely needs write access, it will fail gracefully with a block message.
 
+> ⚠️ **Known limit:** Registered slash commands (like `/sdd-init`) run **before** the plan-mode event layer fires. Pi executes extension commands directly, bypassing `tool_call` and `input` guards. If a command writes files using `writeFileSync` or `mkdirSync`, plan mode **cannot block it**. This is a Pi extension API limitation — there is no pre-command hook available yet.
+
 - Adds `/plan` subcommands:
   - `/plan on`
   - `/plan off`

@@ -218,6 +218,15 @@ export default function planReadonlyExtension(pi: ExtensionAPI): void {
     setStatus(ctx);
   });
 
+  pi.on("input", async (event, ctx) => {
+    if (!enabled) return { action: "continue" };
+    if (!event.text.startsWith("/")) return { action: "continue" };
+    const baseCmd = event.text.split(/\s+/)[0];
+    if (["/plan", "/reload"].includes(baseCmd)) return { action: "continue" };
+    ctx.ui.notify(`Command "${baseCmd}" blocked by plan mode. Use /plan off first.`, "error");
+    return { action: "handled" };
+  });
+
   pi.on("tool_call", async (event) => {
     if (!enabled) return;
     if (!allowedTools.includes(event.toolName)) {
