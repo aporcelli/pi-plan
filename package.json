@@ -1,0 +1,31 @@
+{
+  "name": "pi-plan-readonly",
+  "version": "0.1.0",
+  "description": "Pi extension that adds strict /plan read-only planning mode with anti-jailbreak guardrails",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "plan-mode",
+    "read-only",
+    "security"
+  ],
+  "files": [
+    "extensions",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "peerDependenciesMeta": {
+    "@earendil-works/pi-coding-agent": {
+      "optional": true
+    }
+  },
+  "pi": {
+    "extensions": [
+      "./extensions/plan-readonly"
+    ]
+  }
+}
