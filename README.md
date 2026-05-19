@@ -1,4 +1,4 @@
-# pi-plan-readonly
+# pi-plan
 
 `/plan` command for Pi with strict, anti-jailbreak read-only planning mode.
 
