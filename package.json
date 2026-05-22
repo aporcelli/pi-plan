@@ -4,6 +4,14 @@
   "description": "Pi extension that adds strict /plan read-only planning mode with anti-jailbreak guardrails",
   "type": "module",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aporcelli/pi-plan-lock.git"
+  },
+  "homepage": "https://github.com/aporcelli/pi-plan-lock#readme",
+  "bugs": {
+    "url": "https://github.com/aporcelli/pi-plan-lock/issues"
+  },
   "keywords": [
     "pi-package",
     "pi-extension",
