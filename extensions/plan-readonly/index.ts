@@ -212,6 +212,17 @@ export default function planReadonlyExtension(pi: ExtensionAPI): void {
     },
   });
 
+  pi.registerShortcut("f3", {
+    description: "Toggle plan mode on/off",
+    handler: async (ctx) => {
+      if (enabled) {
+        turnOff(ctx);
+        return;
+      }
+      turnOn(ctx);
+    },
+  });
+
   pi.on("session_start", async (_event, ctx) => {
     locked = false; lockHash = null; insistenceCount = 0;
     if (pi.getFlag("plan") === true) turnOn(ctx);

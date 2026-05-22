@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.3.0] — 2026-05-22
+
+### Added
+
+- Keyboard shortcut `F3` to toggle plan mode ON/OFF.
+- Shortcut uses the same internal flow as `/plan on` and `/plan off`, including lock checks.
+
+### Changed
+
+- README command table and header examples now include `F3` toggle support.
+- Package version bumped to `0.3.0`.
+
 ## [0.2.0] — 2026-05-20
 
 ### Added

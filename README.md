@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <code>/plan on</code> &nbsp;•&nbsp; <code>/plan off</code> &nbsp;•&nbsp; <code>/plan lock &lt;key&gt;</code> &nbsp;•&nbsp; <code>/plan unlock &lt;key&gt;</code> &nbsp;•&nbsp; <code>/plan status</code>
+  <code>/plan on</code> &nbsp;•&nbsp; <code>/plan off</code> &nbsp;•&nbsp; <code>/plan lock &lt;key&gt;</code> &nbsp;•&nbsp; <code>/plan unlock &lt;key&gt;</code> &nbsp;•&nbsp; <code>/plan status</code> &nbsp;•&nbsp; <code>F3</code>
 </p>
 
 ---
@@ -34,6 +34,7 @@ Only reads, analyzes, and returns a step-by-step implementation plan.
 | `/plan status` | Show current mode and lock state |
 | `/plan lock <key>` | Lock plan mode — prevents `/plan off` |
 | `/plan unlock <key>` | Unlock with the same key |
+| `F3` (shortcut) | Toggle plan mode ON/OFF |
 | `--plan` (flag) | Start Pi already in plan mode |
 
 > 💡 **Footer indicator:** Pi shows `plan (on) lock`, `plan (on) unlock`, or `plan (off) unlock` at all times.
