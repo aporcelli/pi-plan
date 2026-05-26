@@ -1,4 +1,4 @@
-<h1 align="center">🔒 pi-plan-lock</h1>
+<h1 align="center">🔒 pi-ez-plan-mode</h1>
 <p align="center">
   <strong>Strict read-only planning mode for Pi — anti-jailbreak, lockable, and review-friendly</strong>
 </p>
@@ -89,17 +89,17 @@ Only read/analyze tools are allowed, and responses stay focused on actionable pl
 
 ### npm
 ```bash
-pi install npm:@porche/pi-plan-lock
+pi install npm:@porche/pi-ez-plan-mode
 ```
 
 ### GitHub
 ```bash
-pi install https://github.com/aporcelli/pi-plan-lock
+pi install https://github.com/aporcelli/pi-ez-plan-mode
 ```
 
 ### Local extension test
 ```bash
-pi -e ~/git-repos/pi-plan/extensions/plan-readonly/index.ts
+pi -e ~/git-repos/pi-ez-plan-mode/extensions/plan-readonly/index.ts
 ```
 
 ### Manual copy

@@ -1,16 +1,16 @@
 {
-  "name": "@porche/pi-plan-lock",
-  "version": "0.3.1",
+  "name": "@porche/pi-ez-plan-mode",
+  "version": "0.4.0",
   "description": "Pi extension that adds strict /plan read-only planning mode with anti-jailbreak guardrails",
   "type": "module",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aporcelli/pi-plan-lock.git"
+    "url": "https://github.com/aporcelli/pi-ez-plan-mode.git"
   },
-  "homepage": "https://github.com/aporcelli/pi-plan-lock#readme",
+  "homepage": "https://github.com/aporcelli/pi-ez-plan-mode#readme",
   "bugs": {
-    "url": "https://github.com/aporcelli/pi-plan-lock/issues"
+    "url": "https://github.com/aporcelli/pi-ez-plan-mode/issues"
   },
   "keywords": [
     "pi-package",

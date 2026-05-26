@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.4.0] — 2026-05-22
+
+### Changed
+
+- Project/package renamed from `pi-plan-lock` to `pi-ez-plan-mode`.
+- npm package renamed to `@porche/pi-ez-plan-mode`.
+- GitHub repository URLs updated to `aporcelli/pi-ez-plan-mode` in package metadata and docs.
+- README install/test commands updated for the new package and local folder naming.
+- Version set to `0.4.0` for the rename release.
+
 ## [0.3.1] — 2026-05-22
 
 ### Changed
